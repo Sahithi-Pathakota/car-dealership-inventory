@@ -149,9 +149,21 @@ Test Files  2 passed (2)
 
 ## Screenshots
 
-_Add screenshots of the running application here before submitting —
-login screen, dashboard, search/filter in action, and the admin add/edit
-forms are good ones to include._
+**Login**
+![Login page](screenshots/Login_Page.png)
+
+**Register**
+![Registration page](screenshots/Registration_Page.png)
+
+**Dashboard (user view)**
+![Vehicle inventory dashboard](screenshots/Home_Page.png)
+
+**Search / filter**
+![Search and filter results](screenshots/Search_Page.png)
+
+**Admin view**
+![Admin controls](screenshots/Admin_Page.png)
+
 
 ## My AI Usage
 

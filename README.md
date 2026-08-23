@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DriveHub — Car Dealership Inventory System
 
 A full-stack car dealership inventory system built as a TDD kata: a token-authenticated
@@ -102,11 +103,27 @@ curl -X POST http://localhost:4000/api/auth/register \
 
 ## Test report
 
-Backend (Jest + Supertest), run locally with `npm run test:coverage`:
+Backend (Jest + Supertest), run locally with `npm test`:
 
 ```
 Test Suites: 3 passed, 3 total
-Tests:       21 passed, 21 total
+Tests: 21 passed, 21 total
+Snapshots: 0 total
+Time: 7.052 s
+
+
+> Note: `npm run test:coverage` crashes intermittently on this machine due to
+> a known native-addon cleanup issue under x64-on-ARM64 Windows emulation
+> (V8 coverage instrumentation + `better-sqlite3`). The full suite passes
+> reliably without coverage instrumentation, as shown above.
+
+Frontend (Vitest + React Testing Library), run locally with `npm test`:
+
+Test Files 2 passed (2)
+Tests 7 passed (7)
+Duration 1.99s
+
+
 
 File                   | % Stmts | % Branch | % Funcs | % Lines
 ------------------------|---------|----------|---------|--------
@@ -180,3 +197,6 @@ Not deployed for this submission. The backend is a standard Node/Express app
 (deployable to Render, Railway, Fly.io, etc.) and the frontend is a static Vite build
 (deployable to Vercel or Netlify) — `VITE_API_URL` just needs to point at the deployed
 backend.
+=======
+# car-dealership-inventory
+>>>>>>> 996390346dcfb6f0ba084256eb109f85936c56a7
